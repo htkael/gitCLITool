@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.hunter.LinterTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.hunter.LinterTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -58,15 +58,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.hunter.LinterTest" name="testValidCommitWithTypeScopeAndDescription" time="0.002"/>
+  <testcase classname="com.hunter.LinterTest" name="testValidCommitWithTypeScopeAndDescription" time="0.004"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithExtraSpaceBeforeColon" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingParentheses2" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testValidCommitWithTypeAndDescription" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingSpaceAfterColon" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithTwoScopes" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithSpacesInScope" time="0"/>
-  <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingParentheses" time="0"/>
+  <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingParentheses" time="0.001"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingColon" time="0"/>
-  <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingDescription" time="0.001"/>
+  <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingDescription" time="0"/>
   <testcase classname="com.hunter.LinterTest" name="testInvalidWithMissingType" time="0"/>
 </testsuite>
